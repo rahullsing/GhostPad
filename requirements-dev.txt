@@ -1,0 +1,4 @@
+# Development and build tools only. Ghostpad itself has no runtime dependencies.
+pyinstaller>=6.0
+ruff>=0.6
+mypy>=1.10

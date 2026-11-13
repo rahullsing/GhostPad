@@ -1,0 +1,28 @@
+# Build output (PyInstaller) - attach builds to releases, never commit them
+build/
+dist/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Leftovers from interrupted atomic saves (see save_document)
+.*.tmp
